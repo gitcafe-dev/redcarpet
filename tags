@@ -1,0 +1,551 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+AUTOLINK_H__	ext/redcarpet/autolink.h	/^#define AUTOLINK_H__$/;"	d
+BLOCK_CALLBACK	ext/redcarpet/rc_render.c	/^#define BLOCK_CALLBACK(/;"	d	file:
+BUFFER_BLOCK	ext/redcarpet/markdown.c	/^#define BUFFER_BLOCK /;"	d	file:
+BUFFER_H__	ext/redcarpet/buffer.h	/^#define BUFFER_H__$/;"	d
+BUFFER_MAX_ALLOC_SIZE	ext/redcarpet/buffer.c	/^#define BUFFER_MAX_ALLOC_SIZE /;"	d	file:
+BUFFER_SPAN	ext/redcarpet/markdown.c	/^#define BUFFER_SPAN /;"	d	file:
+BUFPUTSL	ext/redcarpet/buffer.h	/^#define BUFPUTSL(/;"	d
+BUF_ENOMEM	ext/redcarpet/buffer.h	/^	BUF_ENOMEM = -1,$/;"	e	enum:__anon2
+BUF_OK	ext/redcarpet/buffer.h	/^	BUF_OK = 0,$/;"	e	enum:__anon2
+CSTR2SYM	ext/redcarpet/redcarpet.h	/^#define CSTR2SYM(/;"	d
+CustomRenderTest	test/custom_render_test.rb	/^class CustomRenderTest < Redcarpet::TestCase$/;"	c
+ESCAPE_GROW_FACTOR	ext/redcarpet/houdini_href_e.c	/^#define ESCAPE_GROW_FACTOR(/;"	d	file:
+ESCAPE_GROW_FACTOR	ext/redcarpet/houdini_html_e.c	/^#define ESCAPE_GROW_FACTOR(/;"	d	file:
+GPERF_CASE_STRNCMP	ext/redcarpet/html_blocks.h	/^#define GPERF_CASE_STRNCMP /;"	d
+GPERF_CASE_STRNCMP	ext/redcarpet/markdown.c	/^#define GPERF_CASE_STRNCMP /;"	d	file:
+GPERF_DOWNCASE	ext/redcarpet/html_blocks.h	/^#define GPERF_DOWNCASE /;"	d
+GPERF_DOWNCASE	ext/redcarpet/markdown.c	/^#define GPERF_DOWNCASE /;"	d	file:
+HOUDINI_H__	ext/redcarpet/houdini.h	/^#define HOUDINI_H__$/;"	d
+HREF_SAFE	ext/redcarpet/houdini_href_e.c	/^static const char HREF_SAFE[] = {$/;"	v	file:
+HTMLRenderTest	test/html_render_test.rb	/^class HTMLRenderTest < Redcarpet::TestCase$/;"	c
+HTMLTOCRenderTest	test/html_toc_render_test.rb	/^class HTMLTOCRenderTest < Redcarpet::TestCase$/;"	c
+HTML_ESCAPE	ext/redcarpet/html.h	/^	HTML_ESCAPE = (1 << 9),$/;"	e	enum:__anon4
+HTML_ESCAPES	ext/redcarpet/houdini_html_e.c	/^static const char *HTML_ESCAPES[] = {$/;"	v	file:
+HTML_ESCAPE_TABLE	ext/redcarpet/houdini_html_e.c	/^static const char HTML_ESCAPE_TABLE[] = {$/;"	v	file:
+HTML_EXPAND_TABS	ext/redcarpet/html.h	/^	HTML_EXPAND_TABS = (1 << 4),$/;"	e	enum:__anon4
+HTML_HARD_WRAP	ext/redcarpet/html.h	/^	HTML_HARD_WRAP = (1 << 7),$/;"	e	enum:__anon4
+HTML_H__	ext/redcarpet/html.h	/^#define HTML_H__$/;"	d
+HTML_PRETTIFY	ext/redcarpet/html.h	/^	HTML_PRETTIFY = (1 << 10),$/;"	e	enum:__anon4
+HTML_SAFELINK	ext/redcarpet/html.h	/^	HTML_SAFELINK = (1 << 5),$/;"	e	enum:__anon4
+HTML_SKIP_HTML	ext/redcarpet/html.h	/^	HTML_SKIP_HTML = (1 << 0),$/;"	e	enum:__anon4
+HTML_SKIP_IMAGES	ext/redcarpet/html.h	/^	HTML_SKIP_IMAGES = (1 << 2),$/;"	e	enum:__anon4
+HTML_SKIP_LINKS	ext/redcarpet/html.h	/^	HTML_SKIP_LINKS = (1 << 3),$/;"	e	enum:__anon4
+HTML_SKIP_STYLE	ext/redcarpet/html.h	/^	HTML_SKIP_STYLE = (1 << 1),$/;"	e	enum:__anon4
+HTML_TAG_CLOSE	ext/redcarpet/html.h	/^	HTML_TAG_CLOSE,$/;"	e	enum:__anon5
+HTML_TAG_NONE	ext/redcarpet/html.h	/^	HTML_TAG_NONE = 0,$/;"	e	enum:__anon5
+HTML_TAG_OPEN	ext/redcarpet/html.h	/^	HTML_TAG_OPEN,$/;"	e	enum:__anon5
+HTML_TOC	ext/redcarpet/html.h	/^	HTML_TOC = (1 << 6),$/;"	e	enum:__anon4
+HTML_USE_XHTML	ext/redcarpet/html.h	/^	HTML_USE_XHTML = (1 << 8),$/;"	e	enum:__anon4
+Init_redcarpet	ext/redcarpet/rc_markdown.c	/^void Init_redcarpet()$/;"	f
+Init_redcarpet_rndr	ext/redcarpet/rc_render.c	/^void Init_redcarpet_rndr()$/;"	f
+MARKDOWN_GROW	ext/redcarpet/markdown.c	/^#define MARKDOWN_GROW(/;"	d	file:
+MARKDOWN_H__	ext/redcarpet/markdown.h	/^#define MARKDOWN_H__$/;"	d
+MD_CHAR_AUTOLINK_EMAIL	ext/redcarpet/markdown.c	/^	MD_CHAR_AUTOLINK_EMAIL,$/;"	e	enum:markdown_char_t	file:
+MD_CHAR_AUTOLINK_URL	ext/redcarpet/markdown.c	/^	MD_CHAR_AUTOLINK_URL,$/;"	e	enum:markdown_char_t	file:
+MD_CHAR_AUTOLINK_WWW	ext/redcarpet/markdown.c	/^	MD_CHAR_AUTOLINK_WWW,$/;"	e	enum:markdown_char_t	file:
+MD_CHAR_CODESPAN	ext/redcarpet/markdown.c	/^	MD_CHAR_CODESPAN,$/;"	e	enum:markdown_char_t	file:
+MD_CHAR_EMPHASIS	ext/redcarpet/markdown.c	/^	MD_CHAR_EMPHASIS,$/;"	e	enum:markdown_char_t	file:
+MD_CHAR_ENTITITY	ext/redcarpet/markdown.c	/^	MD_CHAR_ENTITITY,$/;"	e	enum:markdown_char_t	file:
+MD_CHAR_ESCAPE	ext/redcarpet/markdown.c	/^	MD_CHAR_ESCAPE,$/;"	e	enum:markdown_char_t	file:
+MD_CHAR_LANGLE	ext/redcarpet/markdown.c	/^	MD_CHAR_LANGLE,$/;"	e	enum:markdown_char_t	file:
+MD_CHAR_LINEBREAK	ext/redcarpet/markdown.c	/^	MD_CHAR_LINEBREAK,$/;"	e	enum:markdown_char_t	file:
+MD_CHAR_LINK	ext/redcarpet/markdown.c	/^	MD_CHAR_LINK,$/;"	e	enum:markdown_char_t	file:
+MD_CHAR_NONE	ext/redcarpet/markdown.c	/^	MD_CHAR_NONE = 0,$/;"	e	enum:markdown_char_t	file:
+MD_CHAR_QUOTE	ext/redcarpet/markdown.c	/^	MD_CHAR_QUOTE$/;"	e	enum:markdown_char_t	file:
+MD_CHAR_SUPERSCRIPT	ext/redcarpet/markdown.c	/^	MD_CHAR_SUPERSCRIPT,$/;"	e	enum:markdown_char_t	file:
+MKDA_EMAIL	ext/redcarpet/markdown.h	/^	MKDA_EMAIL,			\/* e-mail link without explit mailto: *\/$/;"	e	enum:mkd_autolink
+MKDA_NORMAL	ext/redcarpet/markdown.h	/^	MKDA_NORMAL,		\/* normal http\/http\/ftp\/mailto\/etc link *\/$/;"	e	enum:mkd_autolink
+MKDA_NOT_AUTOLINK	ext/redcarpet/markdown.h	/^	MKDA_NOT_AUTOLINK,	\/* used internally when it is not an autolink*\/$/;"	e	enum:mkd_autolink
+MKDEXT_AUTOLINK	ext/redcarpet/markdown.h	/^	MKDEXT_AUTOLINK = (1 << 3),$/;"	e	enum:mkd_extensions
+MKDEXT_DISABLE_INDENTED_CODE	ext/redcarpet/markdown.h	/^	MKDEXT_DISABLE_INDENTED_CODE = (1 << 9),$/;"	e	enum:mkd_extensions
+MKDEXT_FENCED_CODE	ext/redcarpet/markdown.h	/^	MKDEXT_FENCED_CODE = (1 << 2),$/;"	e	enum:mkd_extensions
+MKDEXT_FOOTNOTES	ext/redcarpet/markdown.h	/^	MKDEXT_FOOTNOTES = (1 << 11),$/;"	e	enum:mkd_extensions
+MKDEXT_HIGHLIGHT	ext/redcarpet/markdown.h	/^	MKDEXT_HIGHLIGHT = (1 << 10),$/;"	e	enum:mkd_extensions
+MKDEXT_LAX_SPACING	ext/redcarpet/markdown.h	/^	MKDEXT_LAX_SPACING = (1 << 8),$/;"	e	enum:mkd_extensions
+MKDEXT_NO_INTRA_EMPHASIS	ext/redcarpet/markdown.h	/^	MKDEXT_NO_INTRA_EMPHASIS = (1 << 0),$/;"	e	enum:mkd_extensions
+MKDEXT_QUOTE	ext/redcarpet/markdown.h	/^	MKDEXT_QUOTE = (1 << 12)$/;"	e	enum:mkd_extensions
+MKDEXT_SPACE_HEADERS	ext/redcarpet/markdown.h	/^	MKDEXT_SPACE_HEADERS = (1 << 6),$/;"	e	enum:mkd_extensions
+MKDEXT_STRIKETHROUGH	ext/redcarpet/markdown.h	/^	MKDEXT_STRIKETHROUGH = (1 << 4),$/;"	e	enum:mkd_extensions
+MKDEXT_SUPERSCRIPT	ext/redcarpet/markdown.h	/^	MKDEXT_SUPERSCRIPT = (1 << 7),$/;"	e	enum:mkd_extensions
+MKDEXT_TABLES	ext/redcarpet/markdown.h	/^	MKDEXT_TABLES = (1 << 1),$/;"	e	enum:mkd_extensions
+MKDEXT_UNDERLINE	ext/redcarpet/markdown.h	/^	MKDEXT_UNDERLINE = (1 << 5),$/;"	e	enum:mkd_extensions
+MKD_LIST_ORDERED	ext/redcarpet/markdown.h	/^#define MKD_LIST_ORDERED	/;"	d
+MKD_LI_BLOCK	ext/redcarpet/markdown.h	/^#define MKD_LI_BLOCK	/;"	d
+MKD_LI_END	ext/redcarpet/markdown.c	/^#define MKD_LI_END /;"	d	file:
+MKD_TABLE_ALIGNMASK	ext/redcarpet/markdown.h	/^	MKD_TABLE_ALIGNMASK = 3,$/;"	e	enum:mkd_tableflags
+MKD_TABLE_ALIGN_CENTER	ext/redcarpet/markdown.h	/^	MKD_TABLE_ALIGN_CENTER = 3,$/;"	e	enum:mkd_tableflags
+MKD_TABLE_ALIGN_L	ext/redcarpet/markdown.h	/^	MKD_TABLE_ALIGN_L = 1,$/;"	e	enum:mkd_tableflags
+MKD_TABLE_ALIGN_R	ext/redcarpet/markdown.h	/^	MKD_TABLE_ALIGN_R = 2,$/;"	e	enum:mkd_tableflags
+MKD_TABLE_HEADER	ext/redcarpet/markdown.h	/^	MKD_TABLE_HEADER = 4$/;"	e	enum:mkd_tableflags
+ManPage	lib/redcarpet/render_man.rb	/^    class ManPage < Base$/;"	c	class:Redcarpet.Render
+Markdown	lib/redcarpet.rb	/^  class Markdown$/;"	c	class:Redcarpet
+MarkdownTest	test/markdown_test.rb	/^class MarkdownTest < Redcarpet::TestCase$/;"	c
+NilPreprocessRenderer	test/custom_render_test.rb	/^  class NilPreprocessRenderer < Redcarpet::Render::HTML$/;"	c	class:CustomRenderTest
+PathologicalInputsTest	test/pathological_inputs_test.rb	/^class PathologicalInputsTest # < Redcarpet::TestCase$/;"	c
+REDCARPET_H__	ext/redcarpet/redcarpet.h	/^#define REDCARPET_H__$/;"	d
+REF_TABLE_SIZE	ext/redcarpet/markdown.c	/^#define REF_TABLE_SIZE /;"	d	file:
+RSTRING_NOT_MODIFIED	ext/redcarpet/redcarpet.h	/^#define RSTRING_NOT_MODIFIED$/;"	d
+Redcarpet	lib/redcarpet.rb	/^module Redcarpet$/;"	m
+Redcarpet	lib/redcarpet/render_man.rb	/^module Redcarpet$/;"	m
+Redcarpet	lib/redcarpet/render_strip.rb	/^module Redcarpet$/;"	m
+Redcarpet	test/test_helper.rb	/^class Redcarpet::TestCase < Test::Unit::TestCase$/;"	c
+RedcarpetCompat	lib/redcarpet/compat.rb	/^class RedcarpetCompat$/;"	c
+RedcarpetCompatTest	test/redcarpet_compat_test.rb	/^class RedcarpetCompatTest < Redcarpet::TestCase$/;"	c
+Render	lib/redcarpet.rb	/^  module Render$/;"	m	class:Redcarpet
+Render	lib/redcarpet/render_man.rb	/^  module Render$/;"	m	class:Redcarpet
+Render	lib/redcarpet/render_strip.rb	/^  module Render$/;"	m	class:Redcarpet
+SD_AUTOLINK_SHORT_DOMAINS	ext/redcarpet/autolink.h	/^	SD_AUTOLINK_SHORT_DOMAINS = (1 << 0),$/;"	e	enum:__anon1
+SPAN_CALLBACK	ext/redcarpet/rc_render.c	/^#define SPAN_CALLBACK(/;"	d	file:
+STACK_H__	ext/redcarpet/stack.h	/^#define STACK_H__$/;"	d
+SimpleRender	test/custom_render_test.rb	/^  class SimpleRender < Redcarpet::Render::HTML$/;"	c	class:CustomRenderTest
+SmartyHTML	lib/redcarpet.rb	/^    class SmartyHTML < HTML$/;"	c	class:Redcarpet.Render
+SmartyHTMLTest	test/smarty_html_test.rb	/^class SmartyHTMLTest < Redcarpet::TestCase$/;"	c
+SmartyPants	lib/redcarpet.rb	/^    module SmartyPants$/;"	m	class:Redcarpet.Render
+SmartyPantsTest	test/smarty_pants_test.rb	/^class SmartyPantsTest < Redcarpet::TestCase$/;"	c
+StripDown	lib/redcarpet/render_strip.rb	/^    class StripDown < Base$/;"	c	class:Redcarpet.Render
+StripDownRender	test/stripdown_render_test.rb	/^class StripDownRender < Redcarpet::TestCase$/;"	c
+TEST	test/MarkdownTest_1.0.3/MarkdownTest.pl	/^TEST:$/;"	l
+USE_XHTML	ext/redcarpet/html.c	/^#define USE_XHTML(/;"	d	file:
+XHTML	lib/redcarpet.rb	/^    class XHTML < HTML$/;"	c	class:Redcarpet.Render
+__attribute__	ext/redcarpet/buffer.h	/^#define __attribute__(/;"	d
+_buf_vsnprintf	ext/redcarpet/buffer.c	/^#	define _buf_vsnprintf /;"	d	file:
+_isalnum	ext/redcarpet/markdown.c	/^_isalnum(int c)$/;"	f	file:
+_isdigit	ext/redcarpet/houdini.h	/^#	define _isdigit(/;"	d
+_isspace	ext/redcarpet/markdown.c	/^_isspace(int c)$/;"	f	file:
+_isxdigit	ext/redcarpet/houdini.h	/^#	define _isxdigit(/;"	d
+active_char	ext/redcarpet/markdown.c	/^	uint8_t active_char[256];$/;"	m	struct:sd_markdown	file:
+active_enc	ext/redcarpet/redcarpet.h	/^	rb_encoding *active_enc;$/;"	m	struct:redcarpet_renderopt
+add_footnote_ref	ext/redcarpet/markdown.c	/^add_footnote_ref(struct footnote_list *list, struct footnote_ref *ref)$/;"	f	file:
+add_link_ref	ext/redcarpet/markdown.c	/^add_link_ref($/;"	f	file:
+asize	ext/redcarpet/buffer.h	/^	size_t asize;	\/* allocated size (0 = volatile buffer) *\/$/;"	m	struct:buf
+asize	ext/redcarpet/stack.h	/^	size_t asize;$/;"	m	struct:stack
+autolink	ext/redcarpet/markdown.h	/^	int (*autolink)(struct buf *ob, const struct buf *link, enum mkd_autolink type, void *opaque);$/;"	m	struct:sd_callbacks
+autolink_delim	ext/redcarpet/autolink.c	/^autolink_delim(uint8_t *data, size_t link_end, size_t max_rewind, size_t size)$/;"	f	file:
+base_class	ext/redcarpet/redcarpet.h	/^	VALUE base_class;$/;"	m	struct:redcarpet_renderopt
+block_code	lib/redcarpet/render_man.rb	/^      def block_code(code, language)$/;"	f	class:Redcarpet.Render.ManPage
+blockcode	ext/redcarpet/markdown.h	/^	void (*blockcode)(struct buf *ob, const struct buf *text, const struct buf *lang, void *opaque);$/;"	m	struct:sd_callbacks
+blockhtml	ext/redcarpet/markdown.h	/^	void (*blockhtml)(struct buf *ob,const  struct buf *text, void *opaque);$/;"	m	struct:sd_callbacks
+blockquote	ext/redcarpet/markdown.h	/^	void (*blockquote)(struct buf *ob, const struct buf *text, void *opaque);$/;"	m	struct:sd_callbacks
+buf	ext/redcarpet/buffer.h	/^struct buf {$/;"	s
+buf2str	ext/redcarpet/rc_render.c	/^#define buf2str(/;"	d	file:
+bufcstr	ext/redcarpet/buffer.c	/^bufcstr(struct buf *buf)$/;"	f
+buferror_t	ext/redcarpet/buffer.h	/^} buferror_t;$/;"	t	typeref:enum:__anon2
+bufgrow	ext/redcarpet/buffer.c	/^bufgrow(struct buf *buf, size_t neosz)$/;"	f
+bufnew	ext/redcarpet/buffer.c	/^bufnew(size_t unit)$/;"	f
+bufprefix	ext/redcarpet/buffer.c	/^bufprefix(const struct buf *buf, const char *prefix)$/;"	f
+bufprintf	ext/redcarpet/buffer.c	/^bufprintf(struct buf *buf, const char *fmt, ...)$/;"	f
+bufput	ext/redcarpet/buffer.c	/^bufput(struct buf *buf, const void *data, size_t len)$/;"	f
+bufputc	ext/redcarpet/buffer.c	/^bufputc(struct buf *buf, int c)$/;"	f
+bufputs	ext/redcarpet/buffer.c	/^bufputs(struct buf *buf, const char *str)$/;"	f
+bufrelease	ext/redcarpet/buffer.c	/^bufrelease(struct buf *buf)$/;"	f
+callbacks	ext/redcarpet/redcarpet.h	/^	struct sd_callbacks callbacks;$/;"	m	struct:rb_redcarpet_rndr	typeref:struct:rb_redcarpet_rndr::sd_callbacks
+cb	ext/redcarpet/markdown.c	/^	struct sd_callbacks	cb;$/;"	m	struct:sd_markdown	typeref:struct:sd_markdown::sd_callbacks	file:
+cb_link_attribute	ext/redcarpet/rc_render.c	/^cb_link_attribute(VALUE key, VALUE val, VALUE payload)$/;"	f	file:
+char_autolink_email	ext/redcarpet/markdown.c	/^char_autolink_email(struct buf *ob, struct sd_markdown *rndr, uint8_t *data, size_t offset, size_t size)$/;"	f	file:
+char_autolink_url	ext/redcarpet/markdown.c	/^char_autolink_url(struct buf *ob, struct sd_markdown *rndr, uint8_t *data, size_t offset, size_t size)$/;"	f	file:
+char_autolink_www	ext/redcarpet/markdown.c	/^char_autolink_www(struct buf *ob, struct sd_markdown *rndr, uint8_t *data, size_t offset, size_t size)$/;"	f	file:
+char_codespan	ext/redcarpet/markdown.c	/^char_codespan(struct buf *ob, struct sd_markdown *rndr, uint8_t *data, size_t offset, size_t size)$/;"	f	file:
+char_emphasis	ext/redcarpet/markdown.c	/^char_emphasis(struct buf *ob, struct sd_markdown *rndr, uint8_t *data, size_t offset, size_t size)$/;"	f	file:
+char_entity	ext/redcarpet/markdown.c	/^char_entity(struct buf *ob, struct sd_markdown *rndr, uint8_t *data, size_t offset, size_t size)$/;"	f	file:
+char_escape	ext/redcarpet/markdown.c	/^char_escape(struct buf *ob, struct sd_markdown *rndr, uint8_t *data, size_t offset, size_t size)$/;"	f	file:
+char_langle_tag	ext/redcarpet/markdown.c	/^char_langle_tag(struct buf *ob, struct sd_markdown *rndr, uint8_t *data, size_t offset, size_t size)$/;"	f	file:
+char_linebreak	ext/redcarpet/markdown.c	/^char_linebreak(struct buf *ob, struct sd_markdown *rndr, uint8_t *data, size_t offset, size_t size)$/;"	f	file:
+char_link	ext/redcarpet/markdown.c	/^char_link(struct buf *ob, struct sd_markdown *rndr, uint8_t *data, size_t offset, size_t size)$/;"	f	file:
+char_quote	ext/redcarpet/markdown.c	/^char_quote(struct buf *ob, struct sd_markdown *rndr, uint8_t *data, size_t offset, size_t size)$/;"	f	file:
+char_superscript	ext/redcarpet/markdown.c	/^char_superscript(struct buf *ob, struct sd_markdown *rndr, uint8_t *data, size_t offset, size_t size)$/;"	f	file:
+char_trigger	ext/redcarpet/markdown.c	/^(*char_trigger)(struct buf *ob, struct sd_markdown *rndr, uint8_t *data, size_t offset, size_t size);$/;"	t	file:
+check_domain	ext/redcarpet/autolink.c	/^check_domain(uint8_t *data, size_t size, int allow_short)$/;"	f	file:
+codespan	ext/redcarpet/markdown.h	/^	int (*codespan)(struct buf *ob, const struct buf *text, void *opaque);$/;"	m	struct:sd_callbacks
+codespan	lib/redcarpet/render_man.rb	/^      def codespan(code)$/;"	f	class:Redcarpet.Render.ManPage
+contents	ext/redcarpet/markdown.c	/^	struct buf *contents;$/;"	m	struct:footnote_ref	typeref:struct:footnote_ref::buf	file:
+count	ext/redcarpet/markdown.c	/^	unsigned int count;$/;"	m	struct:footnote_list	file:
+create_footnote_ref	ext/redcarpet/markdown.c	/^create_footnote_ref(struct footnote_list *list, const uint8_t *name, size_t name_size)$/;"	f	file:
+current_level	ext/redcarpet/html.h	/^		int current_level;$/;"	m	struct:html_renderopt::__anon3
+data	ext/redcarpet/buffer.h	/^	uint8_t *data;		\/* actual character data *\/$/;"	m	struct:buf
+doc_footer	ext/redcarpet/markdown.h	/^	void (*doc_footer)(struct buf *ob, void *opaque);$/;"	m	struct:sd_callbacks
+doc_header	ext/redcarpet/markdown.h	/^	void (*doc_header)(struct buf *ob, void *opaque);$/;"	m	struct:sd_callbacks
+double_emphasis	ext/redcarpet/markdown.h	/^	int (*double_emphasis)(struct buf *ob, const struct buf *text, void *opaque);$/;"	m	struct:sd_callbacks
+double_emphasis	lib/redcarpet/render_man.rb	/^      def double_emphasis(text)$/;"	f	class:Redcarpet.Render.ManPage
+emphasis	ext/redcarpet/markdown.h	/^	int (*emphasis)(struct buf *ob, const struct buf *text, void *opaque);$/;"	m	struct:sd_callbacks
+emphasis	lib/redcarpet/render_man.rb	/^      def emphasis(text)$/;"	f	class:Redcarpet.Render.ManPage
+emphasis	test/custom_render_test.rb	/^    def emphasis(text)$/;"	f	class:CustomRenderTest.SimpleRender
+entity	ext/redcarpet/markdown.h	/^	void (*entity)(struct buf *ob, const struct buf *entity, void *opaque);$/;"	m	struct:sd_callbacks
+escape_href	ext/redcarpet/html.c	/^static inline void escape_href(struct buf *ob, const uint8_t *source, size_t length)$/;"	f	file:
+escape_html	ext/redcarpet/html.c	/^static inline void escape_html(struct buf *ob, const uint8_t *source, size_t length)$/;"	f	file:
+expand_tabs	ext/redcarpet/markdown.c	/^static void expand_tabs(struct buf *ob, const uint8_t *line, size_t size)$/;"	f	file:
+ext_flags	ext/redcarpet/markdown.c	/^	unsigned int ext_flags;$/;"	m	struct:sd_markdown	file:
+find_emph_char	ext/redcarpet/markdown.c	/^find_emph_char(uint8_t *data, size_t size, uint8_t c)$/;"	f	file:
+find_footnote_ref	ext/redcarpet/markdown.c	/^find_footnote_ref(struct footnote_list *list, uint8_t *name, size_t length)$/;"	f	file:
+find_link_ref	ext/redcarpet/markdown.c	/^find_link_ref(struct link_ref **references, uint8_t *name, size_t length)$/;"	f	file:
+flags	ext/redcarpet/html.h	/^	unsigned int flags;$/;"	m	struct:html_renderopt
+footnote_def	ext/redcarpet/markdown.h	/^	void (*footnote_def)(struct buf *ob, const struct buf *text, unsigned int num, void *opaque);$/;"	m	struct:sd_callbacks
+footnote_item	ext/redcarpet/markdown.c	/^struct footnote_item {$/;"	s	file:
+footnote_list	ext/redcarpet/markdown.c	/^struct footnote_list {$/;"	s	file:
+footnote_ref	ext/redcarpet/markdown.c	/^struct footnote_ref {$/;"	s	file:
+footnote_ref	ext/redcarpet/markdown.h	/^	int (*footnote_ref)(struct buf *ob, unsigned int num, void *opaque);$/;"	m	struct:sd_callbacks
+footnotes	ext/redcarpet/markdown.h	/^	void (*footnotes)(struct buf *ob, const struct buf *text, void *opaque);$/;"	m	struct:sd_callbacks
+footnotes_found	ext/redcarpet/markdown.c	/^	struct footnote_list footnotes_found;$/;"	m	struct:sd_markdown	typeref:struct:sd_markdown::footnote_list	file:
+footnotes_used	ext/redcarpet/markdown.c	/^	struct footnote_list footnotes_used;$/;"	m	struct:sd_markdown	typeref:struct:sd_markdown::footnote_list	file:
+free_footnote_list	ext/redcarpet/markdown.c	/^free_footnote_list(struct footnote_list *list, int free_refs)$/;"	f	file:
+free_footnote_ref	ext/redcarpet/markdown.c	/^free_footnote_ref(struct footnote_ref *ref)$/;"	f	file:
+free_link_refs	ext/redcarpet/markdown.c	/^free_link_refs(struct link_ref **references)$/;"	f	file:
+gperf_case_strncmp	ext/redcarpet/markdown.c	/^#define gperf_case_strncmp(/;"	d	file:
+gperf_downcase	ext/redcarpet/html_blocks.h	/^static unsigned char gperf_downcase[256] =$/;"	v
+hash_link_ref	ext/redcarpet/markdown.c	/^hash_link_ref(const uint8_t *link_ref, size_t length)$/;"	f	file:
+head	ext/redcarpet/markdown.c	/^	struct footnote_item *head;$/;"	m	struct:footnote_list	typeref:struct:footnote_list::footnote_item	file:
+header	ext/redcarpet/markdown.h	/^	void (*header)(struct buf *ob, const struct buf *text, int level, void *opaque);$/;"	m	struct:sd_callbacks
+header	lib/redcarpet/render_man.rb	/^      def header(title, level)$/;"	f	class:Redcarpet.Render.ManPage
+header	lib/redcarpet/render_strip.rb	/^      def header(text, header_level)$/;"	f	class:Redcarpet.Render.StripDown
+header_anchor	ext/redcarpet/html.c	/^char *header_anchor(struct buf *text)$/;"	f
+highlight	ext/redcarpet/markdown.h	/^	int (*highlight)(struct buf *ob, const struct buf *text, void *opaque);$/;"	m	struct:sd_callbacks
+houdini_escape_href	ext/redcarpet/houdini_href_e.c	/^houdini_escape_href(struct buf *ob, const uint8_t *src, size_t size)$/;"	f
+houdini_escape_html	ext/redcarpet/houdini_html_e.c	/^houdini_escape_html(struct buf *ob, const uint8_t *src, size_t size)$/;"	f
+houdini_escape_html0	ext/redcarpet/houdini_html_e.c	/^houdini_escape_html0(struct buf *ob, const uint8_t *src, size_t size, int secure)$/;"	f
+hrule	ext/redcarpet/markdown.h	/^	void (*hrule)(struct buf *ob, void *opaque);$/;"	m	struct:sd_callbacks
+html	ext/redcarpet/redcarpet.h	/^	struct html_renderopt html;$/;"	m	struct:redcarpet_renderopt	typeref:struct:redcarpet_renderopt::html_renderopt
+html_equal	test/test_helper.rb	/^  def html_equal(html_a, html_b)$/;"	f	class:Redcarpet
+html_render_mode	ext/redcarpet/html.h	/^} html_render_mode;$/;"	t	typeref:enum:__anon4
+html_renderopt	ext/redcarpet/html.h	/^struct html_renderopt {$/;"	s
+html_tag	ext/redcarpet/html.h	/^} html_tag;$/;"	t	typeref:enum:__anon5
+htmlblock_end	ext/redcarpet/markdown.c	/^htmlblock_end(const char *curtag,$/;"	f	file:
+htmlblock_end_tag	ext/redcarpet/markdown.c	/^htmlblock_end_tag($/;"	f	file:
+id	ext/redcarpet/markdown.c	/^	unsigned int id;$/;"	m	struct:footnote_ref	file:
+id	ext/redcarpet/markdown.c	/^	unsigned int id;$/;"	m	struct:link_ref	file:
+image	ext/redcarpet/markdown.h	/^	int (*image)(struct buf *ob, const struct buf *link, const struct buf *title, const struct buf *alt, void *opaque);$/;"	m	struct:sd_callbacks
+image	lib/redcarpet/render_strip.rb	/^      def image(link, title, content)$/;"	f	class:Redcarpet.Render.StripDown
+in_dquote	ext/redcarpet/html_smartypants.c	/^	int in_dquote;$/;"	m	struct:smartypants_data	file:
+in_link_body	ext/redcarpet/markdown.c	/^	int in_link_body;$/;"	m	struct:sd_markdown	file:
+in_squote	ext/redcarpet/html_smartypants.c	/^	int in_squote;$/;"	m	struct:smartypants_data	file:
+initialize	lib/redcarpet.rb	/^      def initialize(extensions={})$/;"	f	class:Redcarpet.Render.XHTML
+initialize	lib/redcarpet/compat.rb	/^  def initialize(text, *exts)$/;"	f	class:RedcarpetCompat
+inline	ext/redcarpet/buffer.h	/^#define inline$/;"	d
+is_atxheader	ext/redcarpet/markdown.c	/^is_atxheader(struct sd_markdown *rndr, uint8_t *data, size_t size)$/;"	f	file:
+is_codefence	ext/redcarpet/markdown.c	/^is_codefence(uint8_t *data, size_t size, struct buf *syntax)$/;"	f	file:
+is_empty	ext/redcarpet/markdown.c	/^is_empty(const uint8_t *data, size_t size)$/;"	f	file:
+is_footnote	ext/redcarpet/markdown.c	/^is_footnote(const uint8_t *data, size_t beg, size_t end, size_t *last, struct footnote_list *list)$/;"	f	file:
+is_headerline	ext/redcarpet/markdown.c	/^is_headerline(uint8_t *data, size_t size)$/;"	f	file:
+is_hrule	ext/redcarpet/markdown.c	/^is_hrule(uint8_t *data, size_t size)$/;"	f	file:
+is_mail_autolink	ext/redcarpet/markdown.c	/^is_mail_autolink(uint8_t *data, size_t size)$/;"	f	file:
+is_next_headerline	ext/redcarpet/markdown.c	/^is_next_headerline(uint8_t *data, size_t size)$/;"	f	file:
+is_ref	ext/redcarpet/markdown.c	/^is_ref(const uint8_t *data, size_t beg, size_t end, size_t *last, struct link_ref **refs)$/;"	f	file:
+is_used	ext/redcarpet/markdown.c	/^	int is_used;$/;"	m	struct:footnote_ref	file:
+item	ext/redcarpet/stack.h	/^	void **item;$/;"	m	struct:stack
+len	ext/redcarpet/html_blocks.h	/^     register unsigned int len;$/;"	v
+level_offset	ext/redcarpet/html.h	/^		int level_offset;$/;"	m	struct:html_renderopt::__anon3
+linebreak	ext/redcarpet/markdown.h	/^	int (*linebreak)(struct buf *ob, void *opaque);$/;"	m	struct:sd_callbacks
+linebreak	lib/redcarpet/render_man.rb	/^      def linebreak$/;"	f	class:Redcarpet.Render.ManPage
+link	ext/redcarpet/markdown.c	/^	struct buf *link;$/;"	m	struct:link_ref	typeref:struct:link_ref::buf	file:
+link	ext/redcarpet/markdown.h	/^	int (*link)(struct buf *ob, const struct buf *link, const struct buf *title, const struct buf *content, void *opaque);$/;"	m	struct:sd_callbacks
+link	lib/redcarpet/render_strip.rb	/^      def link(link, title, content)$/;"	f	class:Redcarpet.Render.StripDown
+link_attributes	ext/redcarpet/html.h	/^	void (*link_attributes)(struct buf *ob, const struct buf *url, void *self);$/;"	m	struct:html_renderopt
+link_attributes	ext/redcarpet/redcarpet.h	/^	VALUE link_attributes;$/;"	m	struct:redcarpet_renderopt
+link_ref	ext/redcarpet/markdown.c	/^struct link_ref {$/;"	s	file:
+list	ext/redcarpet/markdown.h	/^	void (*list)(struct buf *ob, const struct buf *text, int flags, void *opaque);$/;"	m	struct:sd_callbacks
+list	lib/redcarpet/render_man.rb	/^      def list(content, list_type)$/;"	f	class:Redcarpet.Render.ManPage
+list_item	lib/redcarpet/render_man.rb	/^      def list_item(content, list_type)$/;"	f	class:Redcarpet.Render.ManPage
+list_to_truthy_hash	lib/redcarpet/compat.rb	/^  def list_to_truthy_hash(list)$/;"	f	class:RedcarpetCompat.rename_extensions
+listitem	ext/redcarpet/markdown.h	/^	void (*listitem)(struct buf *ob, const struct buf *text, int flags, void *opaque);$/;"	m	struct:sd_callbacks
+markdown_char_ptrs	ext/redcarpet/markdown.c	/^static char_trigger markdown_char_ptrs[] = {$/;"	v	file:
+markdown_char_t	ext/redcarpet/markdown.c	/^enum markdown_char_t {$/;"	g	file:
+max_nesting	ext/redcarpet/markdown.c	/^	size_t max_nesting;$/;"	m	struct:sd_markdown	file:
+mkd_autolink	ext/redcarpet/markdown.h	/^enum mkd_autolink {$/;"	g
+mkd_extensions	ext/redcarpet/markdown.h	/^enum mkd_extensions {$/;"	g
+mkd_tableflags	ext/redcarpet/markdown.h	/^enum mkd_tableflags {$/;"	g
+n	ext/redcarpet/html_blocks.h	/^     register unsigned int n;$/;"	v
+nesting_level	ext/redcarpet/html.h	/^		int nesting_level;$/;"	m	struct:html_renderopt::__anon3
+next	ext/redcarpet/markdown.c	/^	struct footnote_item *next;$/;"	m	struct:footnote_item	typeref:struct:footnote_item::footnote_item	file:
+next	ext/redcarpet/markdown.c	/^	struct link_ref *next;$/;"	m	struct:link_ref	typeref:struct:link_ref::link_ref	file:
+normal_text	ext/redcarpet/markdown.h	/^	void (*normal_text)(struct buf *ob, const struct buf *text, void *opaque);$/;"	m	struct:sd_callbacks
+normal_text	lib/redcarpet/render_man.rb	/^      def normal_text(text)$/;"	f	class:Redcarpet.Render.ManPage
+num	ext/redcarpet/markdown.c	/^	unsigned int num;$/;"	m	struct:footnote_ref	file:
+opaque	ext/redcarpet/markdown.c	/^	void *opaque;$/;"	m	struct:sd_markdown	file:
+options	ext/redcarpet/redcarpet.h	/^	struct redcarpet_renderopt options;$/;"	m	struct:rb_redcarpet_rndr	typeref:struct:rb_redcarpet_rndr::redcarpet_renderopt
+paragraph	ext/redcarpet/markdown.h	/^	void (*paragraph)(struct buf *ob, const struct buf *text, void *opaque);$/;"	m	struct:sd_callbacks
+paragraph	lib/redcarpet/render_man.rb	/^      def paragraph(text)$/;"	f	class:Redcarpet.Render.ManPage
+paragraph	lib/redcarpet/render_strip.rb	/^      def paragraph(text)$/;"	f	class:Redcarpet.Render.StripDown
+parse_atxheader	ext/redcarpet/markdown.c	/^parse_atxheader(struct buf *ob, struct sd_markdown *rndr, uint8_t *data, size_t size)$/;"	f	file:
+parse_block	ext/redcarpet/markdown.c	/^parse_block(struct buf *ob, struct sd_markdown *rndr, uint8_t *data, size_t size)$/;"	f	file:
+parse_blockcode	ext/redcarpet/markdown.c	/^parse_blockcode(struct buf *ob, struct sd_markdown *rndr, uint8_t *data, size_t size)$/;"	f	file:
+parse_blockquote	ext/redcarpet/markdown.c	/^parse_blockquote(struct buf *ob, struct sd_markdown *rndr, uint8_t *data, size_t size)$/;"	f	file:
+parse_emph1	ext/redcarpet/markdown.c	/^parse_emph1(struct buf *ob, struct sd_markdown *rndr, uint8_t *data, size_t size, uint8_t c)$/;"	f	file:
+parse_emph2	ext/redcarpet/markdown.c	/^parse_emph2(struct buf *ob, struct sd_markdown *rndr, uint8_t *data, size_t size, uint8_t c)$/;"	f	file:
+parse_emph3	ext/redcarpet/markdown.c	/^parse_emph3(struct buf *ob, struct sd_markdown *rndr, uint8_t *data, size_t size, uint8_t c)$/;"	f	file:
+parse_extensions_and_renderer_options	lib/redcarpet/compat.rb	/^  def parse_extensions_and_renderer_options(exts)$/;"	f	class:RedcarpetCompat.rename_extensions
+parse_fencedcode	ext/redcarpet/markdown.c	/^parse_fencedcode(struct buf *ob, struct sd_markdown *rndr, uint8_t *data, size_t size)$/;"	f	file:
+parse_footnote_def	ext/redcarpet/markdown.c	/^parse_footnote_def(struct buf *ob, struct sd_markdown *rndr, unsigned int num, uint8_t *data, size_t size)$/;"	f	file:
+parse_footnote_list	ext/redcarpet/markdown.c	/^parse_footnote_list(struct buf *ob, struct sd_markdown *rndr, struct footnote_list *footnotes)$/;"	f	file:
+parse_htmlblock	ext/redcarpet/markdown.c	/^parse_htmlblock(struct buf *ob, struct sd_markdown *rndr, uint8_t *data, size_t size, int do_render)$/;"	f	file:
+parse_inline	ext/redcarpet/markdown.c	/^parse_inline(struct buf *ob, struct sd_markdown *rndr, uint8_t *data, size_t size)$/;"	f	file:
+parse_list	ext/redcarpet/markdown.c	/^parse_list(struct buf *ob, struct sd_markdown *rndr, uint8_t *data, size_t size, int flags)$/;"	f	file:
+parse_listitem	ext/redcarpet/markdown.c	/^parse_listitem(struct buf *ob, struct sd_markdown *rndr, uint8_t *data, size_t size, int *flags)$/;"	f	file:
+parse_paragraph	ext/redcarpet/markdown.c	/^parse_paragraph(struct buf *ob, struct sd_markdown *rndr, uint8_t *data, size_t size)$/;"	f	file:
+parse_table	ext/redcarpet/markdown.c	/^parse_table($/;"	f	file:
+parse_table_header	ext/redcarpet/markdown.c	/^parse_table_header($/;"	f	file:
+parse_table_row	ext/redcarpet/markdown.c	/^parse_table_row($/;"	f	file:
+prefix_code	ext/redcarpet/markdown.c	/^prefix_code(uint8_t *data, size_t size)$/;"	f	file:
+prefix_codefence	ext/redcarpet/markdown.c	/^prefix_codefence(uint8_t *data, size_t size)$/;"	f	file:
+prefix_oli	ext/redcarpet/markdown.c	/^prefix_oli(uint8_t *data, size_t size)$/;"	f	file:
+prefix_quote	ext/redcarpet/markdown.c	/^prefix_quote(uint8_t *data, size_t size)$/;"	f	file:
+prefix_uli	ext/redcarpet/markdown.c	/^prefix_uli(uint8_t *data, size_t size)$/;"	f	file:
+preprocess	test/custom_render_test.rb	/^    def preprocess(fulldoc)$/;"	f	class:CustomRenderTest.NilPreprocessRenderer
+quote	ext/redcarpet/markdown.h	/^	int (*quote)(struct buf *ob, const struct buf *text, void *opaque);$/;"	m	struct:sd_callbacks
+raw_html_tag	ext/redcarpet/markdown.h	/^	int (*raw_html_tag)(struct buf *ob, const struct buf *tag, void *opaque);$/;"	m	struct:sd_callbacks
+rb_cMarkdown	ext/redcarpet/rc_markdown.c	/^VALUE rb_cMarkdown;$/;"	v
+rb_cRenderBase	ext/redcarpet/rc_render.c	/^VALUE rb_cRenderBase;$/;"	v
+rb_cRenderHTML	ext/redcarpet/rc_render.c	/^VALUE rb_cRenderHTML;$/;"	v
+rb_cRenderHTML_TOC	ext/redcarpet/rc_render.c	/^VALUE rb_cRenderHTML_TOC;$/;"	v
+rb_mRedcarpet	ext/redcarpet/rc_markdown.c	/^VALUE rb_mRedcarpet;$/;"	v
+rb_mRender	ext/redcarpet/rc_render.c	/^VALUE rb_mRender;$/;"	v
+rb_mSmartyPants	ext/redcarpet/rc_render.c	/^VALUE rb_mSmartyPants;$/;"	v
+rb_redcarpet__overload	ext/redcarpet/rc_render.c	/^static void rb_redcarpet__overload(VALUE self, VALUE base_class)$/;"	f	file:
+rb_redcarpet_callbacks	ext/redcarpet/rc_render.c	/^static struct sd_callbacks rb_redcarpet_callbacks = {$/;"	v	typeref:struct:sd_callbacks	file:
+rb_redcarpet_html_init	ext/redcarpet/rc_render.c	/^static VALUE rb_redcarpet_html_init(int argc, VALUE *argv, VALUE self)$/;"	f	file:
+rb_redcarpet_htmltoc_init	ext/redcarpet/rc_render.c	/^static VALUE rb_redcarpet_htmltoc_init(int argc, VALUE *argv, VALUE self)$/;"	f	file:
+rb_redcarpet_md__free	ext/redcarpet/rc_markdown.c	/^rb_redcarpet_md__free(void *markdown)$/;"	f	file:
+rb_redcarpet_md__new	ext/redcarpet/rc_markdown.c	/^static VALUE rb_redcarpet_md__new(int argc, VALUE *argv, VALUE klass)$/;"	f	file:
+rb_redcarpet_md_flags	ext/redcarpet/rc_markdown.c	/^static void rb_redcarpet_md_flags(VALUE hash, unsigned int *enabled_extensions_p)$/;"	f	file:
+rb_redcarpet_md_render	ext/redcarpet/rc_markdown.c	/^static VALUE rb_redcarpet_md_render(VALUE self, VALUE text)$/;"	f	file:
+rb_redcarpet_method_count	ext/redcarpet/rc_render.c	/^static const size_t rb_redcarpet_method_count = sizeof(rb_redcarpet_method_names)\/sizeof(char *);$/;"	v	file:
+rb_redcarpet_method_names	ext/redcarpet/rc_render.c	/^static const char *rb_redcarpet_method_names[] = {$/;"	v	file:
+rb_redcarpet_rbase_alloc	ext/redcarpet/rc_render.c	/^static VALUE rb_redcarpet_rbase_alloc(VALUE klass)$/;"	f	file:
+rb_redcarpet_rbase_init	ext/redcarpet/rc_render.c	/^static VALUE rb_redcarpet_rbase_init(VALUE self)$/;"	f	file:
+rb_redcarpet_rbase_mark	ext/redcarpet/rc_render.c	/^static void rb_redcarpet_rbase_mark(struct rb_redcarpet_rndr *rndr)$/;"	f	file:
+rb_redcarpet_rndr	ext/redcarpet/redcarpet.h	/^struct rb_redcarpet_rndr {$/;"	s
+rb_redcarpet_smartypants_render	ext/redcarpet/rc_render.c	/^static VALUE rb_redcarpet_smartypants_render(VALUE self, VALUE text)$/;"	f	file:
+redcarpet_renderopt	ext/redcarpet/redcarpet.h	/^struct redcarpet_renderopt {$/;"	s
+redcarpet_stack_free	ext/redcarpet/stack.c	/^redcarpet_stack_free(struct stack *st)$/;"	f
+redcarpet_stack_grow	ext/redcarpet/stack.c	/^redcarpet_stack_grow(struct stack *st, size_t new_size)$/;"	f
+redcarpet_stack_init	ext/redcarpet/stack.c	/^redcarpet_stack_init(struct stack *st, size_t initial_size)$/;"	f
+redcarpet_stack_push	ext/redcarpet/stack.c	/^redcarpet_stack_push(struct stack *st, void *item)$/;"	f
+ref	ext/redcarpet/markdown.c	/^	struct footnote_ref *ref;$/;"	m	struct:footnote_item	typeref:struct:footnote_item::footnote_ref	file:
+refs	ext/redcarpet/markdown.c	/^	struct link_ref *refs[REF_TABLE_SIZE];$/;"	m	struct:sd_markdown	typeref:struct:sd_markdown::link_ref	file:
+rename_extensions	lib/redcarpet/compat.rb	/^  def rename_extensions(exts)$/;"	f	class:RedcarpetCompat
+render	lib/redcarpet.rb	/^      def self.render(text)$/;"	F	class:Redcarpet.Render.SmartyPants
+render_with	test/html_render_test.rb	/^  def render_with(rndr, text)$/;"	f	class:HTMLRenderTest
+render_with	test/markdown_test.rb	/^  def render_with(flags, text)$/;"	f	class:MarkdownTest
+rndr_autolink	ext/redcarpet/html.c	/^rndr_autolink(struct buf *ob, const struct buf *link, enum mkd_autolink type, void *opaque)$/;"	f	file:
+rndr_autolink	ext/redcarpet/rc_render.c	/^rndr_autolink(struct buf *ob, const struct buf *link, enum mkd_autolink type, void *opaque)$/;"	f	file:
+rndr_blockcode	ext/redcarpet/html.c	/^rndr_blockcode(struct buf *ob, const struct buf *text, const struct buf *lang, void *opaque)$/;"	f	file:
+rndr_blockcode	ext/redcarpet/rc_render.c	/^rndr_blockcode(struct buf *ob, const struct buf *text, const struct buf *lang, void *opaque)$/;"	f	file:
+rndr_blockquote	ext/redcarpet/html.c	/^rndr_blockquote(struct buf *ob, const struct buf *text, void *opaque)$/;"	f	file:
+rndr_blockquote	ext/redcarpet/rc_render.c	/^rndr_blockquote(struct buf *ob, const struct buf *text, void *opaque)$/;"	f	file:
+rndr_codespan	ext/redcarpet/html.c	/^rndr_codespan(struct buf *ob, const struct buf *text, void *opaque)$/;"	f	file:
+rndr_codespan	ext/redcarpet/rc_render.c	/^rndr_codespan(struct buf *ob, const struct buf *text, void *opaque)$/;"	f	file:
+rndr_doc_footer	ext/redcarpet/rc_render.c	/^rndr_doc_footer(struct buf *ob, void *opaque)$/;"	f	file:
+rndr_doc_header	ext/redcarpet/rc_render.c	/^rndr_doc_header(struct buf *ob, void *opaque)$/;"	f	file:
+rndr_double_emphasis	ext/redcarpet/html.c	/^rndr_double_emphasis(struct buf *ob, const struct buf *text, void *opaque)$/;"	f	file:
+rndr_double_emphasis	ext/redcarpet/rc_render.c	/^rndr_double_emphasis(struct buf *ob, const struct buf *text, void *opaque)$/;"	f	file:
+rndr_emphasis	ext/redcarpet/html.c	/^rndr_emphasis(struct buf *ob, const struct buf *text, void *opaque)$/;"	f	file:
+rndr_emphasis	ext/redcarpet/rc_render.c	/^rndr_emphasis(struct buf *ob, const struct buf *text, void *opaque)$/;"	f	file:
+rndr_entity	ext/redcarpet/rc_render.c	/^rndr_entity(struct buf *ob, const struct buf *text, void *opaque)$/;"	f	file:
+rndr_footnote_def	ext/redcarpet/html.c	/^rndr_footnote_def(struct buf *ob, const struct buf *text, unsigned int num, void *opaque)$/;"	f	file:
+rndr_footnote_def	ext/redcarpet/rc_render.c	/^rndr_footnote_def(struct buf *ob, const struct buf *text, unsigned int num, void *opaque)$/;"	f	file:
+rndr_footnote_ref	ext/redcarpet/html.c	/^rndr_footnote_ref(struct buf *ob, unsigned int num, void *opaque)$/;"	f	file:
+rndr_footnote_ref	ext/redcarpet/rc_render.c	/^rndr_footnote_ref(struct buf *ob, unsigned int num, void *opaque)$/;"	f	file:
+rndr_footnotes	ext/redcarpet/html.c	/^rndr_footnotes(struct buf *ob, const struct buf *text, void *opaque)$/;"	f	file:
+rndr_footnotes	ext/redcarpet/rc_render.c	/^rndr_footnotes(struct buf *ob, const struct buf *text, void *opaque)$/;"	f	file:
+rndr_header	ext/redcarpet/html.c	/^rndr_header(struct buf *ob, const struct buf *text, int level, void *opaque)$/;"	f	file:
+rndr_header	ext/redcarpet/rc_render.c	/^rndr_header(struct buf *ob, const struct buf *text, int level, void *opaque)$/;"	f	file:
+rndr_highlight	ext/redcarpet/html.c	/^rndr_highlight(struct buf *ob, const struct buf *text, void *opaque)$/;"	f	file:
+rndr_highlight	ext/redcarpet/rc_render.c	/^rndr_highlight(struct buf *ob, const struct buf *text, void *opaque)$/;"	f	file:
+rndr_hrule	ext/redcarpet/html.c	/^rndr_hrule(struct buf *ob, void *opaque)$/;"	f	file:
+rndr_hrule	ext/redcarpet/rc_render.c	/^rndr_hrule(struct buf *ob, void *opaque)$/;"	f	file:
+rndr_image	ext/redcarpet/html.c	/^rndr_image(struct buf *ob, const struct buf *link, const struct buf *title, const struct buf *alt, void *opaque)$/;"	f	file:
+rndr_image	ext/redcarpet/rc_render.c	/^rndr_image(struct buf *ob, const struct buf *link, const struct buf *title, const struct buf *alt, void *opaque)$/;"	f	file:
+rndr_linebreak	ext/redcarpet/html.c	/^rndr_linebreak(struct buf *ob, void *opaque)$/;"	f	file:
+rndr_linebreak	ext/redcarpet/rc_render.c	/^rndr_linebreak(struct buf *ob, void *opaque)$/;"	f	file:
+rndr_link	ext/redcarpet/html.c	/^rndr_link(struct buf *ob, const struct buf *link, const struct buf *title, const struct buf *content, void *opaque)$/;"	f	file:
+rndr_link	ext/redcarpet/rc_render.c	/^rndr_link(struct buf *ob, const struct buf *link, const struct buf *title, const struct buf *content, void *opaque)$/;"	f	file:
+rndr_link_attributes	ext/redcarpet/rc_render.c	/^rndr_link_attributes(struct buf *ob, const struct buf *url, void *opaque)$/;"	f	file:
+rndr_list	ext/redcarpet/html.c	/^rndr_list(struct buf *ob, const struct buf *text, int flags, void *opaque)$/;"	f	file:
+rndr_list	ext/redcarpet/rc_render.c	/^rndr_list(struct buf *ob, const struct buf *text, int flags, void *opaque)$/;"	f	file:
+rndr_listitem	ext/redcarpet/html.c	/^rndr_listitem(struct buf *ob, const struct buf *text, int flags, void *opaque)$/;"	f	file:
+rndr_listitem	ext/redcarpet/rc_render.c	/^rndr_listitem(struct buf *ob, const struct buf *text, int flags, void *opaque)$/;"	f	file:
+rndr_newbuf	ext/redcarpet/markdown.c	/^rndr_newbuf(struct sd_markdown *rndr, int type)$/;"	f	file:
+rndr_normal_text	ext/redcarpet/html.c	/^rndr_normal_text(struct buf *ob, const struct buf *text, void *opaque)$/;"	f	file:
+rndr_normal_text	ext/redcarpet/rc_render.c	/^rndr_normal_text(struct buf *ob, const struct buf *text, void *opaque)$/;"	f	file:
+rndr_paragraph	ext/redcarpet/html.c	/^rndr_paragraph(struct buf *ob, const struct buf *text, void *opaque)$/;"	f	file:
+rndr_paragraph	ext/redcarpet/rc_render.c	/^rndr_paragraph(struct buf *ob, const struct buf *text, void *opaque)$/;"	f	file:
+rndr_popbuf	ext/redcarpet/markdown.c	/^rndr_popbuf(struct sd_markdown *rndr, int type)$/;"	f	file:
+rndr_quote	ext/redcarpet/html.c	/^rndr_quote(struct buf *ob, const struct buf *text, void *opaque)$/;"	f	file:
+rndr_quote	ext/redcarpet/rc_render.c	/^rndr_quote(struct buf *ob, const struct buf *text, void *opaque)$/;"	f	file:
+rndr_raw_block	ext/redcarpet/html.c	/^rndr_raw_block(struct buf *ob, const struct buf *text, void *opaque)$/;"	f	file:
+rndr_raw_block	ext/redcarpet/rc_render.c	/^rndr_raw_block(struct buf *ob, const struct buf *text, void *opaque)$/;"	f	file:
+rndr_raw_html	ext/redcarpet/html.c	/^rndr_raw_html(struct buf *ob, const struct buf *text, void *opaque)$/;"	f	file:
+rndr_raw_html	ext/redcarpet/rc_render.c	/^rndr_raw_html(struct buf *ob, const struct buf *text, void *opaque)$/;"	f	file:
+rndr_strikethrough	ext/redcarpet/html.c	/^rndr_strikethrough(struct buf *ob, const struct buf *text, void *opaque)$/;"	f	file:
+rndr_strikethrough	ext/redcarpet/rc_render.c	/^rndr_strikethrough(struct buf *ob, const struct buf *text, void *opaque)$/;"	f	file:
+rndr_superscript	ext/redcarpet/html.c	/^rndr_superscript(struct buf *ob, const struct buf *text, void *opaque)$/;"	f	file:
+rndr_superscript	ext/redcarpet/rc_render.c	/^rndr_superscript(struct buf *ob, const struct buf *text, void *opaque)$/;"	f	file:
+rndr_table	ext/redcarpet/html.c	/^rndr_table(struct buf *ob, const struct buf *header, const struct buf *body, void *opaque)$/;"	f	file:
+rndr_table	ext/redcarpet/rc_render.c	/^rndr_table(struct buf *ob, const struct buf *header, const struct buf *body, void *opaque)$/;"	f	file:
+rndr_tablecell	ext/redcarpet/html.c	/^rndr_tablecell(struct buf *ob, const struct buf *text, int flags, void *opaque)$/;"	f	file:
+rndr_tablecell	ext/redcarpet/rc_render.c	/^rndr_tablecell(struct buf *ob, const struct buf *text, int align, void *opaque)$/;"	f	file:
+rndr_tablerow	ext/redcarpet/html.c	/^rndr_tablerow(struct buf *ob, const struct buf *text, void *opaque)$/;"	f	file:
+rndr_tablerow	ext/redcarpet/rc_render.c	/^rndr_tablerow(struct buf *ob, const struct buf *text, void *opaque)$/;"	f	file:
+rndr_triple_emphasis	ext/redcarpet/html.c	/^rndr_triple_emphasis(struct buf *ob, const struct buf *text, void *opaque)$/;"	f	file:
+rndr_triple_emphasis	ext/redcarpet/rc_render.c	/^rndr_triple_emphasis(struct buf *ob, const struct buf *text, void *opaque)$/;"	f	file:
+rndr_underline	ext/redcarpet/html.c	/^rndr_underline(struct buf *ob, const struct buf *text, void *opaque)$/;"	f	file:
+rndr_underline	ext/redcarpet/rc_render.c	/^rndr_underline(struct buf *ob, const struct buf *text, void *opaque)$/;"	f	file:
+s1	ext/redcarpet/html_blocks.h	/^     register const char *s1;$/;"	v
+s2	ext/redcarpet/html_blocks.h	/^     register const char *s2;$/;"	v
+sd_autolink__email	ext/redcarpet/autolink.c	/^sd_autolink__email($/;"	f
+sd_autolink__url	ext/redcarpet/autolink.c	/^sd_autolink__url($/;"	f
+sd_autolink__www	ext/redcarpet/autolink.c	/^sd_autolink__www($/;"	f
+sd_autolink_issafe	ext/redcarpet/autolink.c	/^sd_autolink_issafe(const uint8_t *link, size_t link_len)$/;"	f
+sd_callbacks	ext/redcarpet/markdown.h	/^struct sd_callbacks {$/;"	s
+sd_markdown	ext/redcarpet/markdown.c	/^struct sd_markdown {$/;"	s	file:
+sd_markdown_free	ext/redcarpet/markdown.c	/^sd_markdown_free(struct sd_markdown *md)$/;"	f
+sd_markdown_new	ext/redcarpet/markdown.c	/^sd_markdown_new($/;"	f
+sd_markdown_render	ext/redcarpet/markdown.c	/^sd_markdown_render(struct buf *ob, const uint8_t *document, size_t doc_size, struct sd_markdown *md)$/;"	f
+sdhtml_is_tag	ext/redcarpet/html.c	/^sdhtml_is_tag(const uint8_t *tag_data, size_t tag_size, const char *tagname)$/;"	f
+sdhtml_renderer	ext/redcarpet/html.c	/^sdhtml_renderer(struct sd_callbacks *callbacks, struct html_renderopt *options, unsigned int render_flags)$/;"	f
+sdhtml_smartypants	ext/redcarpet/html_smartypants.c	/^sdhtml_smartypants(struct buf *ob, const uint8_t *text, size_t size)$/;"	f
+sdhtml_toc_renderer	ext/redcarpet/html.c	/^sdhtml_toc_renderer(struct sd_callbacks *callbacks, struct html_renderopt *options, int nesting_level)$/;"	f
+self	ext/redcarpet/redcarpet.h	/^	VALUE self;$/;"	m	struct:redcarpet_renderopt
+setup	test/html_render_test.rb	/^  def setup$/;"	f	class:HTMLRenderTest
+setup	test/html_toc_render_test.rb	/^  def setup$/;"	f	class:HTMLTOCRenderTest
+setup	test/markdown_test.rb	/^  def setup$/;"	f	class:MarkdownTest
+setup	test/pathological_inputs_test.rb	/^  def setup$/;"	f	class:PathologicalInputsTest
+setup	test/smarty_html_test.rb	/^  def setup$/;"	f	class:SmartyHTMLTest
+setup	test/smarty_pants_test.rb	/^  def setup$/;"	f	class:SmartyPantsTest
+setup	test/stripdown_render_test.rb	/^  def setup$/;"	f	class:StripDownRender
+size	ext/redcarpet/buffer.h	/^	size_t size;	\/* size of the string *\/$/;"	m	struct:buf
+size	ext/redcarpet/stack.h	/^	size_t size;$/;"	m	struct:stack
+smartypants_cb__amp	ext/redcarpet/html_smartypants.c	/^smartypants_cb__amp(struct buf *ob, struct smartypants_data *smrt, uint8_t previous_char, const uint8_t *text, size_t size)$/;"	f	file:
+smartypants_cb__backtick	ext/redcarpet/html_smartypants.c	/^smartypants_cb__backtick(struct buf *ob, struct smartypants_data *smrt, uint8_t previous_char, const uint8_t *text, size_t size)$/;"	f	file:
+smartypants_cb__dash	ext/redcarpet/html_smartypants.c	/^smartypants_cb__dash(struct buf *ob, struct smartypants_data *smrt, uint8_t previous_char, const uint8_t *text, size_t size)$/;"	f	file:
+smartypants_cb__dquote	ext/redcarpet/html_smartypants.c	/^smartypants_cb__dquote(struct buf *ob, struct smartypants_data *smrt, uint8_t previous_char, const uint8_t *text, size_t size)$/;"	f	file:
+smartypants_cb__escape	ext/redcarpet/html_smartypants.c	/^smartypants_cb__escape(struct buf *ob, struct smartypants_data *smrt, uint8_t previous_char, const uint8_t *text, size_t size)$/;"	f	file:
+smartypants_cb__ltag	ext/redcarpet/html_smartypants.c	/^smartypants_cb__ltag(struct buf *ob, struct smartypants_data *smrt, uint8_t previous_char, const uint8_t *text, size_t size)$/;"	f	file:
+smartypants_cb__number	ext/redcarpet/html_smartypants.c	/^smartypants_cb__number(struct buf *ob, struct smartypants_data *smrt, uint8_t previous_char, const uint8_t *text, size_t size)$/;"	f	file:
+smartypants_cb__parens	ext/redcarpet/html_smartypants.c	/^smartypants_cb__parens(struct buf *ob, struct smartypants_data *smrt, uint8_t previous_char, const uint8_t *text, size_t size)$/;"	f	file:
+smartypants_cb__period	ext/redcarpet/html_smartypants.c	/^smartypants_cb__period(struct buf *ob, struct smartypants_data *smrt, uint8_t previous_char, const uint8_t *text, size_t size)$/;"	f	file:
+smartypants_cb__squote	ext/redcarpet/html_smartypants.c	/^smartypants_cb__squote(struct buf *ob, struct smartypants_data *smrt, uint8_t previous_char, const uint8_t *text, size_t size)$/;"	f	file:
+smartypants_cb_chars	ext/redcarpet/html_smartypants.c	/^static const uint8_t smartypants_cb_chars[] = {$/;"	v	file:
+smartypants_cb_ptrs	ext/redcarpet/html_smartypants.c	/^static size_t (*smartypants_cb_ptrs[])$/;"	v	file:
+smartypants_data	ext/redcarpet/html_smartypants.c	/^struct smartypants_data {$/;"	s	file:
+smartypants_quotes	ext/redcarpet/html_smartypants.c	/^smartypants_quotes(struct buf *ob, uint8_t previous_char, uint8_t next_char, uint8_t quote, int *is_open)$/;"	f	file:
+smartypants_squote	ext/redcarpet/html_smartypants.c	/^smartypants_squote(struct buf *ob, struct smartypants_data *smrt, uint8_t previous_char, const uint8_t *text, size_t size,$/;"	f	file:
+snprintf	ext/redcarpet/html_smartypants.c	/^#define snprintf	/;"	d	file:
+squote_len	ext/redcarpet/html_smartypants.c	/^squote_len(const uint8_t *text, size_t size)$/;"	f	file:
+stack	ext/redcarpet/stack.h	/^struct stack {$/;"	s
+str	ext/redcarpet/html_blocks.h	/^     register const char *str;$/;"	v
+strikethrough	ext/redcarpet/markdown.h	/^	int (*strikethrough)(struct buf *ob, const struct buf *text, void *opaque);$/;"	m	struct:sd_callbacks
+strncasecmp	ext/redcarpet/autolink.c	/^#define strncasecmp	/;"	d	file:
+strncasecmp	ext/redcarpet/markdown.c	/^#define strncasecmp	/;"	d	file:
+superscript	ext/redcarpet/markdown.h	/^	int (*superscript)(struct buf *ob, const struct buf *text, void *opaque);$/;"	m	struct:sd_callbacks
+table	ext/redcarpet/markdown.h	/^	void (*table)(struct buf *ob, const struct buf *header, const struct buf *body, void *opaque);$/;"	m	struct:sd_callbacks
+table_cell	ext/redcarpet/markdown.h	/^	void (*table_cell)(struct buf *ob, const struct buf *text, int flags, void *opaque);$/;"	m	struct:sd_callbacks
+table_row	ext/redcarpet/markdown.h	/^	void (*table_row)(struct buf *ob, const struct buf *text, void *opaque);$/;"	m	struct:sd_callbacks
+tag_length	ext/redcarpet/markdown.c	/^tag_length(uint8_t *data, size_t size, enum mkd_autolink *autolink)$/;"	f	file:
+tail	ext/redcarpet/markdown.c	/^	struct footnote_item *tail;$/;"	m	struct:footnote_list	typeref:struct:footnote_list::footnote_item	file:
+test_a_hyphen_and_a_equal_should_not_be_converted_to_heading	test/markdown_test.rb	/^  def test_a_hyphen_and_a_equal_should_not_be_converted_to_heading$/;"	f	class:MarkdownTest
+test_autolink_short_domains	test/html_render_test.rb	/^  def test_autolink_short_domains$/;"	f	class:HTMLRenderTest
+test_autolink_with_link_attributes	test/html_render_test.rb	/^  def test_autolink_with_link_attributes$/;"	f	class:HTMLRenderTest
+test_autolinking_with_ent_chars	test/markdown_test.rb	/^  def test_autolinking_with_ent_chars$/;"	f	class:MarkdownTest
+test_autolinking_works_as_expected	test/html_render_test.rb	/^  def test_autolinking_works_as_expected$/;"	f	class:HTMLRenderTest
+test_block_quotes_preceded_by_spaces	test/markdown_test.rb	/^  def test_block_quotes_preceded_by_spaces$/;"	f	class:MarkdownTest
+test_char_escaping_when_highlighting	test/markdown_test.rb	/^  def test_char_escaping_when_highlighting$/;"	f	class:MarkdownTest
+test_code_blocks	test/stripdown_render_test.rb	/^  def test_code_blocks$/;"	f	class:StripDownRender
+test_compat_api_enables_extensions	test/redcarpet_compat_test.rb	/^  def test_compat_api_enables_extensions$/;"	f	class:RedcarpetCompatTest
+test_compat_api_ignores_gh_blockcode_extension	test/redcarpet_compat_test.rb	/^  def test_compat_api_ignores_gh_blockcode_extension$/;"	f	class:RedcarpetCompatTest
+test_compat_api_knows_fenced_code_extension	test/redcarpet_compat_test.rb	/^  def test_compat_api_knows_fenced_code_extension$/;"	f	class:RedcarpetCompatTest
+test_compat_api_knows_no_intraemphasis_extension	test/redcarpet_compat_test.rb	/^  def test_compat_api_knows_no_intraemphasis_extension$/;"	f	class:RedcarpetCompatTest
+test_emphasis_escaping	test/markdown_test.rb	/^  def test_emphasis_escaping$/;"	f	class:MarkdownTest
+test_filter_html_doesnt_break_two_space_hard_break	test/html_render_test.rb	/^  def test_filter_html_doesnt_break_two_space_hard_break$/;"	f	class:HTMLRenderTest
+test_footnotes_enabled_but_missing_definition	test/html_render_test.rb	/^  def test_footnotes_enabled_but_missing_definition$/;"	f	class:HTMLRenderTest
+test_footnotes_enabled_but_missing_marker	test/html_render_test.rb	/^  def test_footnotes_enabled_but_missing_marker$/;"	f	class:HTMLRenderTest
+test_granular_toc_render	test/html_toc_render_test.rb	/^  def test_granular_toc_render$/;"	f	class:HTMLTOCRenderTest
+test_headings_with_trailing_space	test/markdown_test.rb	/^  def test_headings_with_trailing_space$/;"	f	class:MarkdownTest
+test_highlight_flag_works	test/markdown_test.rb	/^  def test_highlight_flag_works$/;"	f	class:MarkdownTest
+test_images	test/stripdown_render_test.rb	/^  def test_images$/;"	f	class:StripDownRender
+test_infinite_loop_in_header	test/markdown_test.rb	/^  def test_infinite_loop_in_header$/;"	f	class:MarkdownTest
+test_link_syntax_is_not_processed_within_code_blocks	test/markdown_test.rb	/^  def test_link_syntax_is_not_processed_within_code_blocks$/;"	f	class:MarkdownTest
+test_links	test/stripdown_render_test.rb	/^  def test_links$/;"	f	class:StripDownRender
+test_memory_leak_when_parsing_char_links	test/markdown_test.rb	/^  def test_memory_leak_when_parsing_char_links$/;"	f	class:MarkdownTest
+test_ordered_lists_with_lax_spacing	test/markdown_test.rb	/^  def test_ordered_lists_with_lax_spacing$/;"	f	class:MarkdownTest
+test_p_with_less_than_4space_indent_should_not_be_part_of_last_list_item	test/markdown_test.rb	/^  def test_p_with_less_than_4space_indent_should_not_be_part_of_last_list_item$/;"	f	class:MarkdownTest
+test_para_before_block_html_should_not_wrap_in_p_tag	test/markdown_test.rb	/^  def test_para_before_block_html_should_not_wrap_in_p_tag$/;"	f	class:MarkdownTest
+test_pathological_1	test/pathological_inputs_test.rb	/^  def test_pathological_1$/;"	f	class:PathologicalInputsTest
+test_pathological_2	test/pathological_inputs_test.rb	/^  def test_pathological_2$/;"	f	class:PathologicalInputsTest
+test_pathological_3	test/pathological_inputs_test.rb	/^  def test_pathological_3$/;"	f	class:PathologicalInputsTest
+test_pathological_4	test/pathological_inputs_test.rb	/^  def test_pathological_4$/;"	f	class:PathologicalInputsTest
+test_preprocess_returning_nil	test/custom_render_test.rb	/^  def test_preprocess_returning_nil$/;"	f	class:CustomRenderTest
+test_proper_intra_emphasis	test/markdown_test.rb	/^  def test_proper_intra_emphasis$/;"	f	class:MarkdownTest
+test_quote_flag_works	test/markdown_test.rb	/^  def test_quote_flag_works$/;"	f	class:MarkdownTest
+test_references_with_tabs_after_colon	test/markdown_test.rb	/^  def test_references_with_tabs_after_colon$/;"	f	class:MarkdownTest
+test_safe_links_only_with_anchors	test/html_render_test.rb	/^  def test_safe_links_only_with_anchors$/;"	f	class:HTMLRenderTest
+test_simple_compat_api	test/redcarpet_compat_test.rb	/^  def test_simple_compat_api$/;"	f	class:RedcarpetCompatTest
+test_simple_inline_html	test/markdown_test.rb	/^  def test_simple_inline_html$/;"	f	class:MarkdownTest
+test_simple_overload	test/custom_render_test.rb	/^  def test_simple_overload$/;"	f	class:CustomRenderTest
+test_simple_toc_render	test/html_toc_render_test.rb	/^  def test_simple_toc_render$/;"	f	class:HTMLTOCRenderTest
+test_spaced_headers	test/markdown_test.rb	/^  def test_spaced_headers$/;"	f	class:MarkdownTest
+test_strikethrough_flag_works	test/markdown_test.rb	/^  def test_strikethrough_flag_works$/;"	f	class:MarkdownTest
+test_that_autolink_flag_works	test/markdown_test.rb	/^  def test_that_autolink_flag_works$/;"	f	class:MarkdownTest
+test_that_backticks_are_preserved	test/smarty_pants_test.rb	/^  def test_that_backticks_are_preserved$/;"	f	class:SmartyPantsTest
+test_that_code_emphasis_work	test/html_render_test.rb	/^  def test_that_code_emphasis_work$/;"	f	class:HTMLRenderTest
+test_that_escape_html_works	test/html_render_test.rb	/^  def test_that_escape_html_works$/;"	f	class:HTMLRenderTest
+test_that_fenced_flag_works	test/markdown_test.rb	/^  def test_that_fenced_flag_works$/;"	f	class:MarkdownTest
+test_that_fenced_flag_works_without_space	test/markdown_test.rb	/^  def test_that_fenced_flag_works_without_space$/;"	f	class:MarkdownTest
+test_that_filter_html_works	test/html_render_test.rb	/^  def test_that_filter_html_works$/;"	f	class:HTMLRenderTest
+test_that_footnotes_work	test/html_render_test.rb	/^  def test_that_footnotes_work$/;"	f	class:HTMLRenderTest
+test_that_hard_wrap_works	test/html_render_test.rb	/^  def test_that_hard_wrap_works$/;"	f	class:HTMLRenderTest
+test_that_headers_are_linkable	test/markdown_test.rb	/^  def test_that_headers_are_linkable$/;"	f	class:MarkdownTest
+test_that_html_blocks_do_not_require_their_own_end_tag_line	test/markdown_test.rb	/^  def test_that_html_blocks_do_not_require_their_own_end_tag_line$/;"	f	class:MarkdownTest
+test_that_indented_flag_works	test/markdown_test.rb	/^  def test_that_indented_flag_works$/;"	f	class:MarkdownTest
+test_that_inline_markdown_goes_to_html	test/markdown_test.rb	/^  def test_that_inline_markdown_goes_to_html$/;"	f	class:MarkdownTest
+test_that_inline_markdown_starts_and_ends_correctly	test/markdown_test.rb	/^  def test_that_inline_markdown_starts_and_ends_correctly$/;"	f	class:MarkdownTest
+test_that_intra_emphasis_works	test/markdown_test.rb	/^  def test_that_intra_emphasis_works$/;"	f	class:MarkdownTest
+test_that_link_attributes_work	test/html_render_test.rb	/^  def test_that_link_attributes_work$/;"	f	class:HTMLRenderTest
+test_that_link_works_with_quotes	test/html_render_test.rb	/^  def test_that_link_works_with_quotes$/;"	f	class:HTMLRenderTest
+test_that_no_image_flag_works	test/html_render_test.rb	/^  def test_that_no_image_flag_works$/;"	f	class:HTMLRenderTest
+test_that_no_links_flag_works	test/html_render_test.rb	/^  def test_that_no_links_flag_works$/;"	f	class:HTMLRenderTest
+test_that_parenthesis_are_handled_into_links	test/html_render_test.rb	/^  def test_that_parenthesis_are_handled_into_links$/;"	f	class:HTMLRenderTest
+test_that_prettify_works	test/html_render_test.rb	/^  def test_that_prettify_works$/;"	f	class:HTMLRenderTest
+test_that_safelink_flag_works	test/html_render_test.rb	/^  def test_that_safelink_flag_works$/;"	f	class:HTMLRenderTest
+test_that_simple_one_liner_goes_to_html	test/markdown_test.rb	/^  def test_that_simple_one_liner_goes_to_html$/;"	f	class:MarkdownTest
+test_that_smart_converts_double_quotes_to_curly_quotes	test/smarty_pants_test.rb	/^  def test_that_smart_converts_double_quotes_to_curly_quotes$/;"	f	class:SmartyPantsTest
+test_that_smart_converts_single_quotes_in_words_that_end_in_ll	test/smarty_pants_test.rb	/^  def test_that_smart_converts_single_quotes_in_words_that_end_in_ll$/;"	f	class:SmartyPantsTest
+test_that_smart_converts_single_quotes_in_words_that_end_in_re	test/smarty_pants_test.rb	/^  def test_that_smart_converts_single_quotes_in_words_that_end_in_re$/;"	f	class:SmartyPantsTest
+test_that_smart_converts_trailing_single_quotes_to_curly_quotes	test/smarty_pants_test.rb	/^  def test_that_smart_converts_trailing_single_quotes_to_curly_quotes$/;"	f	class:SmartyPantsTest
+test_that_smart_gives_d_suffix_a_rsquo	test/smarty_pants_test.rb	/^  def test_that_smart_gives_d_suffix_a_rsquo$/;"	f	class:SmartyPantsTest
+test_that_smart_gives_m_suffix_a_rsquo	test/smarty_pants_test.rb	/^  def test_that_smart_gives_m_suffix_a_rsquo$/;"	f	class:SmartyPantsTest
+test_that_smart_gives_ve_suffix_a_rsquo	test/smarty_pants_test.rb	/^  def test_that_smart_gives_ve_suffix_a_rsquo$/;"	f	class:SmartyPantsTest
+test_that_smartyhtml_converts_double_hyphen	test/smarty_html_test.rb	/^  def test_that_smartyhtml_converts_double_hyphen$/;"	f	class:SmartyHTMLTest
+test_that_smartyhtml_converts_double_quotes	test/smarty_html_test.rb	/^  def test_that_smartyhtml_converts_double_quotes$/;"	f	class:SmartyHTMLTest
+test_that_smartyhtml_converts_single_quotes	test/smarty_html_test.rb	/^  def test_that_smartyhtml_converts_single_quotes$/;"	f	class:SmartyHTMLTest
+test_that_smartyhtml_converts_triple_hyphen	test/smarty_html_test.rb	/^  def test_that_smartyhtml_converts_triple_hyphen$/;"	f	class:SmartyHTMLTest
+test_that_smartyhtml_ignores_code	test/smarty_html_test.rb	/^  def test_that_smartyhtml_ignores_code$/;"	f	class:SmartyHTMLTest
+test_that_smartyhtml_ignores_double_hyphen_in_code	test/smarty_html_test.rb	/^  def test_that_smartyhtml_ignores_double_hyphen_in_code$/;"	f	class:SmartyHTMLTest
+test_that_smartyhtml_ignores_pre	test/smarty_html_test.rb	/^  def test_that_smartyhtml_ignores_pre$/;"	f	class:SmartyHTMLTest
+test_that_tables_flag_works	test/markdown_test.rb	/^  def test_that_tables_flag_works$/;"	f	class:MarkdownTest
+test_that_tables_work_with_org_table_syntax	test/markdown_test.rb	/^  def test_that_tables_work_with_org_table_syntax$/;"	f	class:MarkdownTest
+test_that_tags_can_have_dashes_and_underscores	test/markdown_test.rb	/^  def test_that_tags_can_have_dashes_and_underscores$/;"	f	class:MarkdownTest
+test_that_urls_are_not_doubly_escaped	test/markdown_test.rb	/^  def test_that_urls_are_not_doubly_escaped$/;"	f	class:MarkdownTest
+test_titles	test/stripdown_render_test.rb	/^  def test_titles$/;"	f	class:StripDownRender
+test_toc_heading_id	test/html_render_test.rb	/^  def test_toc_heading_id$/;"	f	class:HTMLRenderTest
+test_toc_heading_id	test/html_toc_render_test.rb	/^  def test_toc_heading_id$/;"	f	class:HTMLTOCRenderTest
+test_toc_heading_with_hyphen_and_equal	test/html_toc_render_test.rb	/^  def test_toc_heading_with_hyphen_and_equal$/;"	f	class:HTMLTOCRenderTest
+test_translate_outdated_extensions	test/redcarpet_compat_test.rb	/^  def test_translate_outdated_extensions$/;"	f	class:RedcarpetCompatTest
+test_unbound_recursion	test/pathological_inputs_test.rb	/^  def test_unbound_recursion$/;"	f	class:PathologicalInputsTest
+test_underline_flag_works	test/markdown_test.rb	/^  def test_underline_flag_works$/;"	f	class:MarkdownTest
+test_whitespace_after_urls	test/markdown_test.rb	/^  def test_whitespace_after_urls$/;"	f	class:MarkdownTest
+title	ext/redcarpet/markdown.c	/^	struct buf *title;$/;"	m	struct:link_ref	typeref:struct:link_ref::buf	file:
+to_html	lib/redcarpet/compat.rb	/^  def to_html(*_dummy)$/;"	f	class:RedcarpetCompat
+toc_data	ext/redcarpet/html.h	/^	} toc_data;$/;"	m	struct:html_renderopt	typeref:struct:html_renderopt::__anon3
+toc_finalize	ext/redcarpet/html.c	/^toc_finalize(struct buf *ob, void *opaque)$/;"	f	file:
+toc_header	ext/redcarpet/html.c	/^toc_header(struct buf *ob, const struct buf *text, int level, void *opaque)$/;"	f	file:
+toc_link	ext/redcarpet/html.c	/^toc_link(struct buf *ob, const struct buf *link, const struct buf *title, const struct buf *content, void *opaque)$/;"	f	file:
+triple_emphasis	ext/redcarpet/markdown.h	/^	int (*triple_emphasis)(struct buf *ob, const struct buf *text, void *opaque);$/;"	m	struct:sd_callbacks
+underline	ext/redcarpet/markdown.h	/^	int (*underline)(struct buf *ob, const struct buf *text, void *opaque);$/;"	m	struct:sd_callbacks
+unit	ext/redcarpet/buffer.h	/^	size_t unit;	\/* reallocation unit size (0 = read-only buffer) *\/$/;"	m	struct:buf
+unscape_text	ext/redcarpet/markdown.c	/^unscape_text(struct buf *ob, struct buf *src)$/;"	f	file:
+word_boundary	ext/redcarpet/html_smartypants.c	/^word_boundary(uint8_t c)$/;"	f	file:
+work_bufs	ext/redcarpet/markdown.c	/^	struct stack work_bufs[2];$/;"	m	struct:sd_markdown	typeref:struct:sd_markdown::stack	file:

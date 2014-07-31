@@ -469,9 +469,15 @@ parse_inline(struct buf *ob, struct sd_markdown *rndr, uint8_t *data, size_t siz
 		rndr->work_bufs[BUFFER_BLOCK].size > rndr->max_nesting)
 		return;
 
+  int flag_no_intra_emphasis = (rndr->ext_flags & MKDEXT_NO_INTRA_EMPHASIS);
 	while (i < size) {
 		/* copying inactive chars into the output */
-		while (end < size && (action = rndr->active_char[data[end]]) == 0) {
+		while (
+        end < size && (
+          (action = rndr->active_char[data[end]]) == 0 ||
+            (flag_no_intra_emphasis && end > 0 && data[end] == '_' && _isalnum(data[end-1]))
+        )
+      ) {
 			end++;
 		}
 
